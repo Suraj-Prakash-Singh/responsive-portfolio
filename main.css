@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-left: 135px;
+  padding-right: 135px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #28293e;
+  font-family: sans-serif;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 15vh;
+}
+.logo{
+    cursor: pointer;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+nav ul{
+    margin-left: 100px;
+    margin-right: 189px;
+}
+nav {
+  flex: 1;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+nav ul li a:hover{
+    color: lightgray;
+}
+button{
+    height: 48px;
+    width: 138px;
+    text-decoration: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: auto;
+    background-color: #28293e;
+    color: #fff;
+    border: 2px solid grey;
+    cursor: pointer;
+    font-weight: 700;
+}
+.main-img{
+    position: absolute;
+    top: 186px;
+    left: 930px;
+    width: 470px;
+    height: 455px;
+}
+.content{
+    position: absolute;
+    top: 268px;
+    font-family: 'Epilogue', sans-serif;
+}
+.p-first{
+    font-size: 16px;
+    color: #EF6D58;
+    padding-bottom: 24px;
+    letter-spacing: 3px;
+
+}
+.content h1{
+    letter-spacing: -2px;
+    font-size: 80px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+.p-second{
+    color: lightslategray;
+    padding-bottom: 34px;
+    font-size: 16px;
+}
+.SMW{
+    background-color: #EF6D58;
+    color: #fff;
+    border: none;
+
+}
